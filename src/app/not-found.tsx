@@ -2,10 +2,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, Home } from "lucide-react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 
 export default function NotFound() {
-  const router = useRouter();
   return (
     <div className="flex min-h-[100dvh] flex-col items-center justify-center bg-background px-4 text-center">
       <div className="mx-auto flex max-w-[500px] flex-col items-center justify-center space-y-6">
@@ -34,9 +32,11 @@ export default function NotFound() {
               Back to home
             </Link>
           </Button>
-          <Button asChild variant="outline" onClick={() => router.back()}>
-            <ArrowLeft className="mr-2 h-4 w-4" />
-            Go back
+          <Button asChild variant="outline">
+            <Link href="../">
+              <ArrowLeft className="mr-2 h-4 w-4" />
+              Go back
+            </Link>
           </Button>
         </div>
       </div>
