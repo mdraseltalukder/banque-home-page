@@ -47,7 +47,7 @@ export default function Savings() {
         </div>
       </div>
       <Image
-        className=" mr-[111px] "
+        className=" lg:mr-[111px] "
         src={phone4}
         alt="phonecard-image"
       ></Image>
