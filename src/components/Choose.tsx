@@ -60,7 +60,7 @@ export default function Choose() {
         </div>
         {/* 2nd */}
         <div className="flex flex-col items-center justify-between gap-6">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center justify-center gap-2">
             <h4>Premium</h4>
           </div>
           <div className="flex flex-col items-center gap-2">
@@ -105,7 +105,7 @@ export default function Choose() {
         </div>
         {/* 3rd */}
         <div className="flex flex-col items-center justify-between gap-6">
-          <div className="flex items-center gap-2">
+          <div className="flex items-center justify-center gap-2">
             <h4>Gold</h4>
           </div>
           <div className="flex flex-col items-center gap-2">

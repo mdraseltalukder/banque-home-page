@@ -136,10 +136,10 @@
     max-width: var(--container-custom);
   }
   .heading1 {
-    @apply text-[60px] md:text-[70px] lg:text-[80px] font-[500];
+    @apply text-[50px] md:text-[65px] lg:text-[80px] font-[500];
   }
   .heading2 {
-    @apply text-[46px] md:text-[58px] lg:text-[64px] font-[500];
+    @apply text-[36px] md:text-[55px] lg:text-[64px] font-[500];
   }
   .heading4 {
     @apply text-[20px]  font-[500];
