@@ -1,7 +1,7 @@
 "use client";
-import Link from "next/link";
-import { ArrowLeft, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ArrowLeft, Home } from "lucide-react";
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 export default function NotFound() {
@@ -23,8 +23,8 @@ export default function NotFound() {
         </h1>
 
         <p className="text-muted-foreground">
-          Sorry, we couldn't find the page you're looking for. It might have
-          been moved, deleted, or perhaps never existed.
+          Sorry, we couldn&apos;t find the page you&apos;re looking for. It
+          might have been moved, deleted, or perhaps never existed.
         </p>
 
         <div className="flex flex-col gap-2 sm:flex-row">
