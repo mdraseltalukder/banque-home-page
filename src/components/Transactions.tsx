@@ -51,6 +51,7 @@ export default function Transactions() {
         className=" lg:mr-[111px] max-h-full object-cover px-10 sm:px-0"
         width={379}
         height={550}
+        layout="responsive"
       />
     </div>
   );
