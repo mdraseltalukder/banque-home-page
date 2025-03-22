@@ -4,7 +4,7 @@ import phone2 from "../../public/phone2.png";
 
 export default function ManageCard() {
   return (
-    <div className="CustomContainer flex-col sm:flex-row flex lg:gap-[170px] mt-[100px] items-center justify-between ">
+    <div className="CustomContainer flex-col sm:flex-row flex gap-10 lg:gap-[170px] mt-[100px] items-center justify-between ">
       <div className="flex flex-col items-start   ">
         <h3 className="heading3">Cards</h3>
         <h2 className="pt-[8px] py-[16px] heading2">
@@ -48,8 +48,10 @@ export default function ManageCard() {
       <Image
         src={phone2}
         alt="phonecard-image"
-        className=" lg:mr-[111px]"
-      ></Image>
+        className=" lg:mr-[111px] max-h-full object-cover  px-10 sm:px-0"
+        width={379}
+        height={550}
+      />
     </div>
   );
 }

@@ -32,7 +32,7 @@ export default function Choose() {
           <div className=" p-7 text-white bg-gradient-to-r from-[#5BB5A2] to-[#53A191] rounded-xl">
             <div className="flex items-center justify-between mb-20">
               <h6 className="text-[22px]">banquee.</h6>
-              <Image src={wifi} alt="wifi icon"></Image>
+              <Image src={wifi} alt="wifi icon" width={24} height={24}></Image>
             </div>
             <div className=" mb-[22px]">
               <Image src={fontText} alt=" text image"></Image>
@@ -77,7 +77,7 @@ export default function Choose() {
           <div className=" p-7 text-white bg-gradient-to-r from-[#485563] to-[#29323C] rounded-xl">
             <div className="flex items-center justify-between mb-20">
               <h6 className="text-[22px]">banquee.</h6>
-              <Image src={wifi} alt="wifi icon"></Image>
+              <Image src={wifi} alt="wifi icon" width={24} height={24}></Image>
             </div>
             <div className=" mb-[22px]">
               <Image src={fontText} alt=" text image"></Image>
@@ -121,7 +121,7 @@ export default function Choose() {
           <div className=" p-7 text-white bg-gradient-to-r from-[#E3C79E] to-[#E3C79E] rounded-xl">
             <div className="flex items-center justify-between mb-20">
               <h6 className="text-[22px]">banquee.</h6>
-              <Image src={wifi} alt="wifi icon "></Image>
+              <Image src={wifi} alt="wifi icon" width={24} height={24}></Image>
             </div>
             <div className=" mb-[22px]">
               <Image src={fontText} alt=" text image"></Image>

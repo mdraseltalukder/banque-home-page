@@ -4,7 +4,7 @@ import phone4 from "../../public/phone4.png";
 
 export default function Savings() {
   return (
-    <div className="CustomContainer flex-col sm:flex-row  flex lg:gap-[170px] mt-[100px] items-center justify-between mb-[100px]">
+    <div className="CustomContainer flex-col sm:flex-row  flex gap-10 lg:gap-[170px] mt-[100px] items-center justify-between mb-[100px]">
       <div className="flex flex-col items-start   ">
         <h3 className="heading3">Saving Accounts</h3>
         <h2 className="pt-[8px] py-[16px] heading2">
@@ -47,10 +47,12 @@ export default function Savings() {
         </div>
       </div>
       <Image
-        className=" lg:mr-[111px] "
         src={phone4}
         alt="phonecard-image"
-      ></Image>
+        className=" lg:mr-[111px] max-h-full object-cover  px-10 sm:px-0"
+        width={379}
+        height={550}
+      />
     </div>
   );
 }

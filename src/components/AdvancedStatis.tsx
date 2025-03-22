@@ -4,7 +4,7 @@ import phone3 from "../../public/phone3.png";
 
 export default function Advanced() {
   return (
-    <div className="CustomContainer flex flex-col sm:flex-row lg:gap-[170px] mt-[160px] items-center justify-between ">
+    <div className="CustomContainer flex flex-col sm:flex-row gap-10 lg:gap-[170px] mt-[160px] items-center justify-between ">
       <div className="flex flex-col items-start   ">
         <h3 className="heading3 ">Advanced Statistics</h3>
         <h2 className="pt-[8px] py-[16px] heading2">
@@ -47,10 +47,12 @@ export default function Advanced() {
         </div>
       </div>
       <Image
-        className="lg:mr-[111px] "
         src={phone3}
         alt="phonecard-image"
-      ></Image>
+        className=" lg:mr-[111px] max-h-full object-cover  px-10 sm:px-0"
+        width={379}
+        height={550}
+      />
     </div>
   );
 }

@@ -1,5 +1,4 @@
 "use client";
-"use client";
 
 import { cn } from "@/lib/utils";
 import { MoonIcon, SunIcon } from "lucide-react";
@@ -54,7 +53,7 @@ export default function Navbar() {
               className={cn(
                 "hover:text-[#5BB5A2]  py-2 px-3 transition-colors font-medium",
                 pathname === nav.href
-                  ? "text-[#5BB5A2] bg-red text-extrabold"
+                  ? "text-[#5BB5A2] font-extrabold"
                   : "text-muted-foreground"
               )}
             >

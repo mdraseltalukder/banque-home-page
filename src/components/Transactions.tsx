@@ -4,7 +4,7 @@ import phone1 from "../../public/phone1.png";
 
 export default function Transactions() {
   return (
-    <div className="CustomContainer mx-auto  flex-col sm:flex-row  flex lg:gap-[170px] mt-[100px] items-center justify-between ">
+    <div className="CustomContainer mx-auto flex flex-col gap-10 sm:flex-row lg:gap-[170px] mt-[100px] items-center justify-between ">
       <div className="flex flex-col items-start   ">
         <h3 className="heading3">Transactions</h3>
         <h2 className="pt-[8px] py-[16px] heading2">
@@ -46,10 +46,12 @@ export default function Transactions() {
         </div>
       </div>
       <Image
-        className=" lg:mr-[111px]"
         src={phone1}
         alt="phonecard-image"
-      ></Image>
+        className=" lg:mr-[111px] max-h-full object-cover px-10 sm:px-0"
+        width={379}
+        height={550}
+      />
     </div>
   );
 }
