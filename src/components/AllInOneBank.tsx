@@ -9,7 +9,7 @@ export default function AllInOneBank() {
   return (
     <>
       <hr />
-      <div className="flex flex-col CustomContainer items-center gap-24 mt-[100px]">
+      <div className="flex flex-col CustomContainer items-center gap-24 mt-[160px]">
         <div className="flex flex-col gap-4 items-center ">
           <h2 className="heading2">All in one bank. Really.</h2>
           <p className="paragraph">

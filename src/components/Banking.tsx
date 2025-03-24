@@ -5,7 +5,7 @@ import card6 from "../../public/card6.png";
 
 export default function Banking() {
   return (
-    <div className="CustomContainer flex flex-col px-3 lg:px-0 sm:flex-row  items-center justify-center md:items-end md:justify-evenly text-white bg-[#5BB5A2] mt-25 rounded-2xl">
+    <div className="CustomContainer flex flex-col px-3 lg:px-0 sm:flex-row  items-center justify-center md:items-end md:justify-evenly text-white bg-[#5BB5A2] mt-40 rounded-2xl">
       <div className="flex flex-col items-start justify-start gap-4 my-24">
         <div className="flex flex-col items-start gap-4">
           <h2 className="heading2">

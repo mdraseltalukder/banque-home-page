@@ -36,7 +36,7 @@ export default function Navbar() {
     },
   ];
   return (
-    <nav className="sticky top-0 z-50 w-full bg-[#e8f2ee]/95 dark:bg-background/95 border-b border-[#5BB5A2]  transition-all backdrop:blur supports-[backdrop-filter]:bg-[#e8f2ee]/90">
+    <nav className="sticky top-0 z-50 w-full bg-background border-b   transition-all backdrop:blur supports-[backdrop-filter]:bg-background/90">
       <div className="flex flex-col lg:flex-row items-center justify-between py-6 max-w-[1400px] px-3 overflow-hidden mx-auto">
         <Link
           className="font-[700] text-[24px] md:text-[32px] text-[#5BB5A2] font-cinzel"

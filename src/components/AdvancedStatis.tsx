@@ -52,6 +52,7 @@ export default function Advanced() {
         className=" lg:mr-[111px] max-h-full object-cover  px-10 sm:px-0 "
         width={379}
         height={550}
+        sizes="(min-width: 1280px) 353px, (min-width: 1040px) 28.18vw, (min-width: 800px) calc(39.55vw - 25px), (min-width: 760px) calc(-320vw + 2779px), (min-width: 640px) 50vw, (min-width: 440px) 299px, calc(85.83vw - 62px)"
       />
     </div>
   );

@@ -9,7 +9,7 @@ import { MdOutlineMarkEmailUnread } from "react-icons/md";
 
 export default function Help() {
   return (
-    <div className="CustomContainer  flex-col sm:flex-row  flex items-start justify-between mt-25">
+    <div className="CustomContainer  flex-col sm:flex-row  flex items-start justify-between mt-40">
       <div className="flex flex-1 flex-col items-start gap-12">
         <h2 className="heading2">Need help?</h2>
 
